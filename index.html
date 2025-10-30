@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Candle Blow</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+  </head>
+  <body>
+    <div class="candle-count-display">
+      Candles on the Cake: <span id="candleCount">0</span>
+    </div>
+    
+    <div id="birthdayMessage" style="
+        text-align: center;
+        margin-top: 20px;
+        font-size: 24px;
+        font-weight: bold;
+        font-family: 'Arial', sans-serif;
+        color: #F0E4D0; /* Light color for dark background */
+        text-shadow: 0 0 5px #AD030F, 0 0 10px #AD030F; /* Subtle glow */
+        display: none; /* Hidden initially, shown by JavaScript */
+        z-index: 20;
+        position: absolute;
+        top: 85%; 
+        left: 50%;
+        width: 90%; /* Give it some width for centering */
+        transform: translateX(-50%);
+    ">
+      HAPPY BIRTHDAY ANN 🎂 ❤️ NO WORDS CAN SAY HOW MUCH U MEAN TO ME
+    </div>
+    <div class="cake">
+      <div class="plate"></div>
+      <div class="layer layer-bottom"></div>
+      <div class="layer layer-middle"></div>
+      <div class="layer layer-top"></div>
+      <div class="icing"></div>
+      <div class="drip drip1"></div>
+      <div class="drip drip2"></div>
+      <div class="drip drip3"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
